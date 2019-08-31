@@ -1,7 +1,7 @@
 let conversation=0; //Sets conversation (which keeps track of what is being said) to the starting point
 function switchCon(){
   conversation++; //this section of code first increases conversation, then sets the pictures and text for each value
-  console.log(conversation);
+  console.log(conversation);  //I couldn't think of a better way, as each dialouge and the portraits displayed had to be customized
   switch (conversation) {
     case 1:
       $("#conText").html("Hello Gereld, I had a great swim!");
@@ -110,7 +110,7 @@ function switchCon(){
     default:
       $(".cutscene").css("display", "none");
       $("#video").css("display", "inline-block");
-      var video = document.getElementById("video");
+      var video = document.getElementById("video"); //I couldn't get this to work using the Jquery syntax, it wouldn't even work with let- It makes a  variable video, so I can play the video
       video.play();
       setTimeout(function(){ window.location.href = "../2ndScreen/2ndScreenHTML.html"; }, 3990); //takes you to the next screen when the video finishes
   }

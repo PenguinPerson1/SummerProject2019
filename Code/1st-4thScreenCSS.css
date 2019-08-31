@@ -1,0 +1,47 @@
+#game{ /* Sets the location for the game */
+  top: 120px;
+  z-index: 2;
+  margin: 10px;
+}
+#title{ /* Sets the location for the location(Sunken Ruins Floor 1) */
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+#sound{ /* Sets the location for the sound controls */
+  position: absolute;
+  top: 10px;
+  left: 35px;
+}
+.cutscene{ /* Sets the cutscene to originally be invisable */
+  display: none;
+}
+.picture{ /* Sets the location and border for the pictures */
+  width: 960px;
+  height: 600px;
+  border-style: solid;
+  border-color: black;
+}
+#textBox{ /*Sets the text box to be positioned correctly and to have a slight shading to make it stand out */
+  position: absolute;
+  top: 630px;
+  left: 10px;
+  width: 960px;
+  height: 150px;
+  border-style: solid;
+  border-color: black;
+  background-color: #bfbfbf;
+}
+.portrait{ /*Sets the portraits to have the correct dimentions */
+  width: auto;
+  height: 150px;
+}
+#text{ /*Sets the text to the correct location and makes sure it wraps correctly */
+  width: 800px;
+  position: fixed;
+  top: 640px;
+  left: 170px;
+}
+#video{ /* Sets the video to originally be invisable */
+  display: none;
+}
