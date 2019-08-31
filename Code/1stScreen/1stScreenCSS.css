@@ -1,0 +1,29 @@
+.cutscene{
+  display: none;
+}
+.picture{
+  width: 960px;
+  height: 600px;
+  border-style: solid;
+  border-color: black;
+}
+#textBox{
+  width: 960px;
+  height: 150px;
+  border-style: solid;
+  border-color: black;
+  background-color: #bfbfbf;
+}
+.portrait{
+  width: auto;
+  height: 150px;
+}
+#text{
+  width: 800px;
+  position: fixed;
+  top: 620px;
+  left: 170px;
+}
+#video{
+  display: none;
+}

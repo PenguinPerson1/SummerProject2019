@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="3rdScreenCSS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="cutscene" class="cutscene">  <!--This div includes all the elements for the cutscene/conversation -->
+      <img id="pictureHydraHead" class="cutscene picture" src="../../SceneHydraHead.jpg"></img>
+      <img id="pictureHydraIce" class="cutscene picture" src="../../SceneHydraIce.jpg"></img>
+      <div id="textBox" class="cutscene">
+          <img id="character" class="cutscene portrait" src="../../PortraitCharacter.jpg"></img>
+          <img id="hydraR" class="cutscene portrait" src="../../PortraitHydraR.jpg"></img>
+          <div id="text">
+            <p id="conText"  class="cutscene"></p>
+          </div>
+      </div>
+    </div>
+    <audio controls id="sound">
+      <source src="../../StarboundDrosera.mp3" type="audio/mp3">
+      <source src="../../StarboundDrosera.ogg" type="audio/ogg">
+      Your browser does not support the audio tag
+    </audio>
+    <h1 id="title" class="game">The Sunken Ruin F2</h1>
+    <div id="game" class="game"></div>
+    <script type="text/javascript" src="https://rawgithub.com/craftyjs/Crafty/release/dist/crafty-min.js"></script>
+    <script src="3rdScreenJS.js"></script>
+  </body>
+</html>

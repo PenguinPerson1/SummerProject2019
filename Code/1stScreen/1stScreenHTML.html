@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="1stScreenCSS.css">
+  </head>
+  <body>
+     <div id="name" class="name">  <!--This div includes all the elements for getting the character's name -->
+      <p id="namePrompt" class="name">What is your name?</p>
+      <input type="text" id="nameInput" class="name"></input><br></br>
+      <button class="name" id="subName">Submit!</button>
+    </div>
+    <div id="cutscene" class="cutscene">  <!--This div includes all the elements for the cutscene/conversation -->
+      <img id="pictureHydra" class="cutscene picture" src="../../SceneHydra.jpg"></img>
+      <img id="picturePenguin" class="cutscene picture" src="../../ScenePenguin.jpg"></img>
+      <div id="textBox" class="cutscene">
+          <img id="character" class="cutscene portrait" src="../../PortraitCharacter.jpg"></img>
+          <img id="friend" class="cutscene portrait" src="../../PortraitFriend.jpg"></img>
+          <img id="hydraR" class="cutscene portrait" src="../../PortraitHydraR.jpg"></img>
+          <img id="hydraM" class="cutscene portrait" src="../../PortraitHydraM.jpg"></img>
+          <img id="hydraL" class="cutscene portrait" src="../../PortraitHydraL.jpg"></img>
+          <div id="text">
+            <p id="conText"  class="cutscene"></p>
+          </div>
+      </div>
+      <br>
+    </div>
+    <video width="320" height="240" id="video">
+      <source src="../../PenguinVideo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="1stScreenJS.js"></script>
+  </body>
+</html>
