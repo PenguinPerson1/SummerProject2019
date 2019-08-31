@@ -98,7 +98,7 @@ function HydraCutscene() {
         $("#character").css("display", "none");
         break;
       case 16:
-        window.location.href = "file:///D:/Nia/Documents/SummerProject2019/Code/5thScreen/5thScreenHTML.html";
+        window.location.href = "../5thScreen/5thScreenHTML.html";
           }
   }, 4000);
 }

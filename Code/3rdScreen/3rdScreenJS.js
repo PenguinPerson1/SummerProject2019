@@ -348,7 +348,7 @@ var stairs = Crafty.e('2D, DOM, Color, Collision')
   .bind('EnterFrame', function() { // every frame
     var hitDatas, hitData;
     if ((hitDatas = this.hit('player'))&&hy==true) { // check if player hits and has hydra head
-      window.location.href = "file:///D:/Nia/Documents/SummerProject2019/Code/4thScreen/4thScreenHTML.html";
+      window.location.href = "..4thScreen/4thScreenHTML.html";
     }
   });
 

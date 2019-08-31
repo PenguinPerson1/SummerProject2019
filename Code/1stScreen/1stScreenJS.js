@@ -112,7 +112,7 @@ function switchCon(){
       $("#video").css("display", "inline-block");
       var video = document.getElementById("video");
       video.play();
-      setTimeout(function(){ window.location.href = "file:///D:/Nia/Documents/SummerProject2019/Code/2ndScreen/2ndScreenHTML.html"; }, 3990); //takes you to the next screen when the video finishes
+      setTimeout(function(){ window.location.href = "../2ndScreen/2ndScreenHTML.html"; }, 3990); //takes you to the next screen when the video finishes
   }
 }
 $("#subName").click(function(){
